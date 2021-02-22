@@ -1,0 +1,64 @@
+[15-Feb-2021 18:14:05 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\update.php on line 173
+[15-Feb-2021 18:14:05 UTC] PHP Stack trace:
+[15-Feb-2021 18:14:05 UTC] PHP   1. {main}() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-admin\update.php:0
+[15-Feb-2021 18:14:05 UTC] PHP   2. Plugin_Upgrader->install() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-admin\update.php:171
+[15-Feb-2021 18:14:05 UTC] PHP   3. Plugin_Upgrader->run() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[15-Feb-2021 18:14:05 UTC] PHP   4. do_action() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-admin\includes\class-wp-upgrader.php:847
+[15-Feb-2021 18:14:05 UTC] PHP   5. WP_Hook->do_action() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\plugin.php:484
+[15-Feb-2021 18:14:05 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\class-wp-hook.php:311
+[15-Feb-2021 18:14:05 UTC] PHP   7. wp_version_check() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\class-wp-hook.php:285
+[15-Feb-2021 18:14:05 UTC] PHP   8. trigger_error() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\update.php:173
+[15-Feb-2021 18:29:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\themes\bikcraft\page-home.php:70
+Stack trace:
+#0 C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\jvcco\\...')
+#2 C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\index.php(17): require('C:\\Users\\jvcco\\...')
+#3 {main}
+  thrown in C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\themes\bikcraft\page-home.php on line 70
+[15-Feb-2021 18:35:20 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\themes\bikcraft\page-portifolio.php on line 58
+[15-Feb-2021 18:35:33 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\themes\bikcraft\page-portifolio.php on line 58
+[16-Feb-2021 18:37:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_field(), 0 passed in C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\themes\bikcraft\page-home.php on line 52 and at least 1 expected in C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:79
+Stack trace:
+#0 C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\themes\bikcraft\page-home.php(52): the_field()
+#1 C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\jvcco\\...')
+#2 C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\jvcco\\...')
+#3 C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\index.php(17): require('C:\\Users\\jvcco\\...')
+#4 {main}
+  thrown in C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php on line 79
+[16-Feb-2021 18:48:21 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\themes\bikcraft\functions.php on line 68
+[16-Feb-2021 18:59:25 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'bikcraft_scripts' not found or invalid function name in C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\class-wp-hook.php on line 287
+[16-Feb-2021 18:59:25 UTC] PHP Stack trace:
+[16-Feb-2021 18:59:25 UTC] PHP   1. {main}() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\index.php:0
+[16-Feb-2021 18:59:25 UTC] PHP   2. require() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\index.php:17
+[16-Feb-2021 18:59:25 UTC] PHP   3. require_once() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-blog-header.php:19
+[16-Feb-2021 18:59:25 UTC] PHP   4. include() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\template-loader.php:106
+[16-Feb-2021 18:59:25 UTC] PHP   5. get_header() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\themes\bikcraft\page-home.php:3
+[16-Feb-2021 18:59:25 UTC] PHP   6. locate_template() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\general-template.php:48
+[16-Feb-2021 18:59:25 UTC] PHP   7. load_template() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\template.php:676
+[16-Feb-2021 18:59:25 UTC] PHP   8. require_once() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\template.php:730
+[16-Feb-2021 18:59:25 UTC] PHP   9. wp_head() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\themes\bikcraft\header.php:28
+[16-Feb-2021 18:59:25 UTC] PHP  10. do_action() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\general-template.php:3005
+[16-Feb-2021 18:59:25 UTC] PHP  11. WP_Hook->do_action() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\plugin.php:484
+[16-Feb-2021 18:59:25 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\class-wp-hook.php:311
+[16-Feb-2021 18:59:25 UTC] PHP  13. wp_enqueue_scripts() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\class-wp-hook.php:287
+[16-Feb-2021 18:59:26 UTC] PHP  14. do_action() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\script-loader.php:2004
+[16-Feb-2021 18:59:26 UTC] PHP  15. WP_Hook->do_action() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\plugin.php:484
+[16-Feb-2021 18:59:26 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\class-wp-hook.php:311
+[16-Feb-2021 18:59:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'bikcraft_scripts' not found or invalid function name in C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\class-wp-hook.php on line 287
+[16-Feb-2021 18:59:26 UTC] PHP Stack trace:
+[16-Feb-2021 18:59:26 UTC] PHP   1. {main}() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\index.php:0
+[16-Feb-2021 18:59:26 UTC] PHP   2. require() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\index.php:17
+[16-Feb-2021 18:59:26 UTC] PHP   3. require_once() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-blog-header.php:19
+[16-Feb-2021 18:59:26 UTC] PHP   4. include() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\template-loader.php:106
+[16-Feb-2021 18:59:26 UTC] PHP   5. get_header() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\themes\bikcraft\index.php:1
+[16-Feb-2021 18:59:26 UTC] PHP   6. locate_template() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\general-template.php:48
+[16-Feb-2021 18:59:26 UTC] PHP   7. load_template() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\template.php:676
+[16-Feb-2021 18:59:26 UTC] PHP   8. require_once() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\template.php:730
+[16-Feb-2021 18:59:26 UTC] PHP   9. wp_head() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-content\themes\bikcraft\header.php:28
+[16-Feb-2021 18:59:26 UTC] PHP  10. do_action() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\general-template.php:3005
+[16-Feb-2021 18:59:26 UTC] PHP  11. WP_Hook->do_action() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\plugin.php:484
+[16-Feb-2021 18:59:26 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\class-wp-hook.php:311
+[16-Feb-2021 18:59:26 UTC] PHP  13. wp_enqueue_scripts() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\class-wp-hook.php:287
+[16-Feb-2021 18:59:26 UTC] PHP  14. do_action() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\script-loader.php:2004
+[16-Feb-2021 18:59:26 UTC] PHP  15. WP_Hook->do_action() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\plugin.php:484
+[16-Feb-2021 18:59:26 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\jvcco\Desktop\Sites\bikcraftwp\app\public\wp-includes\class-wp-hook.php:311

@@ -1,0 +1,191 @@
+   /* Deixar o grid responsivo, fazer um corte no layout a partir de determinada width */
+  /* only screen =  Só para telas! */
+  @media only screen and (min-width:788px) and (max-width:979px){
+  /* Entre esses valores o grid será adptado para o TABLET(788 ate 979). */
+
+  /* Qualidade Home*/
+  .qualidade::after{
+    right: 82px;
+  }
+  .qualidade-lista li{
+    padding: 0 10px;
+  }
+  #durabilidade{
+    padding-left:0px;
+  }
+  #sustentabilidade{
+    padding-right: 0px;
+  }
+
+  /* FOOTER  Redes Sociais*/
+  .footer-sociais ul li a{
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 6px;
+  }
+  .footer-sociais ul li a img{
+      height: 26px;
+      width: 26px;
+  }
+
+  /* PRODUTO  */
+
+  .produto-h2  {
+    top: -250px;
+    margin-bottom: -100px;
+    }
+    .icon-prod {
+        padding: 41px 0;
+    }
+    .produto-info p {
+        font-size: 14px;
+        padding: 10px 40px;
+        height: 122px;
+    }
+    .produto-info ul li {
+        width: 181px;
+        height: 49px;
+    }
+
+
+  }
+
+  /* CELULAR */
+  @media only screen and (max-width: 787px) {
+      /* Entre esses valores o grid será adptado para o CELULAR(0 a 787). */
+       /* HEADER */
+      .header{
+        position: relative;
+        padding-bottom: 0;
+    }
+    .header img{
+        margin:0 auto 10px;
+    }
+    .header_menu{
+        text-align: center;
+    }
+    .header_menu ul li {
+        margin: 5px;
+    }
+    .header_menu ul li a{
+        border: 4px solid #000;
+        width: 136px;
+        display: block;
+        float: left;
+    }
+    .header_menu ul li a:hover{
+        border-color: #fff;
+    }
+    .header_menu ul li a.menu-ativo{
+        color:#fff;
+        border-color: #fff;
+      }
+
+
+    /* Introducao */
+    .introducao{
+        margin-top: 0px;
+        padding-top: 20px;
+        background-size: cover;
+    }
+    .quote-externo {
+        margin-bottom: 20px;
+    }
+    .quote-externo p {
+        font-size: 16px;
+    }
+    .quote-externo cite {
+        font-size: 12px;
+    }
+
+    /* Introducao interna */
+    .introducao-interna{
+        margin-top: 0px;
+      }
+
+    /* Call */
+    .call {
+        padding-top: 5px;
+      }
+    /* Qualidade Home*/
+    .qualidade::after{
+        display: none;
+    }
+    .qualidade-lista li{
+        padding: 0 10px;
+    }
+    #durabilidade{
+        padding-left:0px;
+    }
+    #sustentabilidade{
+        padding-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    /* SOBRE */
+    .conteudo-sobre p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+    .conteudo-sobre h3{
+        margin-top: 30px;
+    }
+    .conteudo-sobre ul li{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .subtitulo-interno {
+        line-height: 30px;
+    }
+
+    /* PRODUTOS */
+    .produto-h2  {
+        top: -180px;
+        margin-bottom: -130px;
+    }
+    .icon-prod {
+        padding: 41px 0;
+    }
+    .produto-info p {
+        font-size: 14px;
+        padding: 10px 40px;
+        height: auto;
+    }
+    .produto-info ul li {
+        width: 149px;
+        height: 49px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 14px;
+    }
+    .form {
+        padding: 0px;
+    }
+    .dados-orcamento ul {
+        padding-right: 0px;
+    
+    }
+
+    /*PORTIFOLIO */
+    .quote-cliente cite {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        font-style: normal;
+        margin-right: 20px;
+    }
+
+    /*PAGINA CONTATO */
+    .dados-contato{
+        padding-left: 0px;
+    }
+    
+    .form {
+        padding: 0px;
+    }
+
+
+
+      
+  }

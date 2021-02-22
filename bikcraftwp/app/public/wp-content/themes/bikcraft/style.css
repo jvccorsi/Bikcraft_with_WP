@@ -1,0 +1,685 @@
+/*
+Theme Name: Bikcraft
+Theme URI: http://bikcraft.com
+Author: João Corsi
+Author URI: http://works-corsi.br
+Description: Tema criado para o bikcraft S.A
+Version: 1.0
+*/
+
+
+/* IMPORTS CSS */
+@import 'css/normalize.css';
+@import 'css/reset.css';
+@import 'css/grid.css';
+@import 'css/sobre.css';
+@import 'css/contato.css';
+@import 'css/portifolio.css';
+@import 'css/produtos.css';
+@import 'css/blog.css';
+
+
+/* ESTILOS ADM WP */
+
+.customize-support{
+  margin-top: -32px;
+}
+
+/* Estilos Gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+img{
+  display: block;
+  max-width: 100%; /* Deixar responsivo (max-width: 100%;)*/
+}
+
+.btn {
+  border: 4px solid #fec63e;
+  padding: 12px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-preto:hover {
+  color: #000000;
+  border-color: #000000;
+}
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 8px auto 10px auto;
+}
+.subtitulo-interno {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: .1em;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom:10px;
+}
+
+.subtitulo-interno:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 10px 0;
+}
+
+/* Header */
+
+.header {
+  position: fixed;
+  /* Vai ficar scrolando */
+  top: 0;
+  width: 100%;
+  background-color: #fec63e;
+  padding: 9px;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+
+.header_menu ul li {
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header_menu ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+.header_menu ul li a.menu-ativo{
+  color:#fff;
+}
+
+/* Introducao interna geral */
+.introducao-interna{
+  height: 160px;
+  width: 100%;
+  margin-top: 80px;
+  background-size: cover;
+  text-align: center;
+}
+.introducao-interna h1{
+  color:white;
+  padding-top:30px;
+  margin-bottom:unset;
+  letter-spacing: unset;
+  font-size: 36px;
+}
+.introducao-interna h1::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+}
+
+.introducao-interna p{
+  color: white;
+  padding-top: 10px;
+}
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  background-size: cover;
+  margin-top: 80px;
+  height: 380px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.introducao h1 {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: Arial;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.quote-externo {
+  max-width: 440px;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.quote-externo p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.quote-externo p:before,
+.quote-externo p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+/* Produtos */
+
+.produtos {
+  padding: 50px 0;
+}
+
+.produtos_lista li {
+  text-align: center;
+}
+
+.img-prod {
+  padding: 50px;
+  background-color: black;
+  height: 200px;
+}
+
+.produtos_desc {
+  background-color: #fec63e;
+}
+
+.produtos_desc h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 16px;
+}
+
+.produtos_desc h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 8px auto 10px auto;
+}
+
+.produtos_desc p {
+  padding: 10px 20px 20px 20px;
+}
+
+.call {
+  text-align: center;
+  padding-top: 40px;
+  clear: both;
+}
+
+.call p {
+  color: #000;
+  margin-bottom: 40px;
+}
+
+/* Portifólio */
+
+.portifolio{
+  width: 100%;
+  background: black;
+  padding: 50px 27px 50px 27px;
+}
+.portifolio .subtitulo{
+  color: #fec63e;
+}
+.portifolio .subtitulo::after{
+  background: #fec63e;
+}
+.portifolio-items li:last-child{
+  margin-top: 20px;
+}
+#call_p_portifolio{
+  color: #fff;
+}
+
+
+
+/* Qualidade */
+.qualidade{
+  padding: 50px 0 ;
+}
+.qualidade::after{
+  content: "";
+  width:603px;
+  height:81.5px;
+  display: block;
+  background:url("img/linhas.svg") no-repeat center;
+  position:absolute;
+  top: 195px;
+  right: 178px;
+  z-index: -1;
+}
+.qualidade img{
+  margin:0 auto;
+}
+.qualidade-lista{
+  padding-top: 20px;
+  overflow: auto;
+}
+.qualidade-lista li{
+  text-align: center;
+  padding: 0 40px;
+}
+.qualidade-lista li h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 16px;
+}
+
+.qualidade-lista h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 8px auto 10px auto;
+}
+#durabilidade{
+  padding-left: 100px;
+}
+#sustentabilidade{
+  padding-right: 100px;
+}
+
+
+/* Quebra */
+
+
+.quebra{
+  width: 100%;
+  height: 220px;
+  background: url("img/bg-footer.jpg") no-repeat center;
+  background-size:cover ;
+  text-align: center;
+  padding-top: 40px;
+}
+.quebra .quote-externo{
+  max-width: 500px;
+}
+
+/* FOOTER */
+.footer{
+  width: 100%;
+  background: #000000;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer h3{
+  font-size: 18px;
+  line-height:25px;
+  color: #fec63e;
+  font-weight: bold;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.footer h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fec63e;
+  margin: 5px 0 12px 0;
+}
+.footer-historia{
+  padding-right: 80px;
+}
+.footer-contato ul li{
+font-size: 14px;
+line-height: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-sociais ul li {
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+.footer-sociais ul li a{
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 11px;
+}
+.footer-sociais ul li a:hover{
+  border-color: #fff;
+}
+
+.copy{
+  width: 100%;
+  background:#fec63e;
+  padding: 20px 0;
+}
+/* 5 Adicione o CSS Essencial abaixo */
+
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+/* 6 CSS recomendado para a navegação */
+.js [data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.js [data-slide-nav] > button {
+  display: inline-block;
+  width: 12px;
+  margin: 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #1d1d1d;
+  text-indent: -100px;
+  overflow: hidden;
+}
+.js [data-slide-nav] > button.active {
+  background: #fec454;
+}
+
+/* 6 Adicione o CSS Essêncial abaixo */
+[data-anime] {
+  opacity: 1;
+}
+
+/* 7 CSS personalizado dependendo da animação desejada */
+.fadeInDown {
+  transform: translate3d(0,-20px,0);
+}
+.fadeInUp {
+  transform: translate3d(0,20px,0);
+}
+.fadeInRight {
+  transform: translate3d(20px,0,0);
+}
+.fadeInLeft {
+  transform: translate3d(-20px,0,0);
+}
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .8s, opacity .8s;
+}
+
+.nao-aparece{
+  visibility: hidden;
+  height: 0px;
+  position: absolute;
+}
+
+
+/* Estiliznado JS de erro para envio de email */
+
+#form-sucesso{
+  color:green;
+}
+
+#form-erro{
+  color: red;
+}
+
+/* ESTILOS RESPONSIVOS */
+
+   /* Deixar o grid responsivo, fazer um corte no layout a partir de determinada width */
+  /* only screen =  Só para telas! */
+  @media only screen and (min-width:788px) and (max-width:979px){
+    /* Entre esses valores o grid será adptado para o TABLET(788 ate 979). */
+  
+    /* Qualidade Home*/
+    .qualidade::after{
+      right: 82px;
+    }
+    .qualidade-lista li{
+      padding: 0 10px;
+    }
+    #durabilidade{
+      padding-left:0px;
+    }
+    #sustentabilidade{
+      padding-right: 0px;
+    }
+  
+    /* FOOTER  Redes Sociais*/
+    .footer-sociais ul li a{
+      border: 3px solid #fec63e;
+      display: block;
+      padding: 6px;
+    }
+    .footer-sociais ul li a img{
+        height: 26px;
+        width: 26px;
+    }
+  
+    /* PRODUTO  */
+  
+    .produto-h2  {
+      top: -250px;
+      margin-bottom: -100px;
+      }
+      .icon-prod {
+          padding: 41px 0;
+      }
+      .produto-info p {
+          font-size: 14px;
+          padding: 10px 40px;
+          height: 122px;
+      }
+      .produto-info ul li {
+          width: 181px;
+          height: 49px;
+      }
+  
+  
+    }
+  
+    /* CELULAR */
+    @media only screen and (max-width: 787px) {
+        /* Entre esses valores o grid será adptado para o CELULAR(0 a 787). */
+         /* HEADER */
+        .header{
+          position: relative;
+          padding-bottom: 0;
+      }
+      .header img{
+          margin:0 auto 10px;
+      }
+      .header_menu{
+          text-align: center;
+      }
+      .header_menu ul li {
+          margin: 5px;
+      }
+      .header_menu ul li a{
+          border: 4px solid #000;
+          width: 136px;
+          display: block;
+          float: left;
+      }
+      .header_menu ul li a:hover{
+          border-color: #fff;
+      }
+      .header_menu ul li a.menu-ativo{
+          color:#fff;
+          border-color: #fff;
+        }
+  
+  
+      /* Introducao */
+      .introducao{
+          margin-top: 0px;
+          padding-top: 20px;
+          background-size: cover;
+      }
+      .quote-externo {
+          margin-bottom: 20px;
+      }
+      .quote-externo p {
+          font-size: 16px;
+      }
+      .quote-externo cite {
+          font-size: 12px;
+      }
+  
+      /* Introducao interna */
+      .introducao-interna{
+          margin-top: 0px;
+        }
+  
+      /* Call */
+      .call {
+          padding-top: 5px;
+        }
+      /* Qualidade Home*/
+      .qualidade::after{
+          display: none;
+      }
+      .qualidade-lista li{
+          padding: 0 10px;
+      }
+      #durabilidade{
+          padding-left:0px;
+      }
+      #sustentabilidade{
+          padding-right: 0px;
+          margin-bottom: 40px;
+      }
+  
+      /* SOBRE */
+      .conteudo-sobre p{
+          font-size: 14px;
+          line-height: 20px;
+          margin-bottom: 18px;
+      }
+      .conteudo-sobre h3{
+          margin-top: 30px;
+      }
+      .conteudo-sobre ul li{
+          font-size: 16px;
+          line-height: 25px;
+      }
+      .subtitulo-interno {
+          line-height: 30px;
+      }
+  
+      /* PRODUTOS */
+      .produto-h2  {
+          top: -180px;
+          margin-bottom: -130px;
+      }
+      .icon-prod {
+          padding: 41px 0;
+      }
+      .produto-info p {
+          font-size: 14px;
+          padding: 10px 40px;
+          height: auto;
+      }
+      .produto-info ul li {
+          width: 149px;
+          height: 49px;
+          font-size: 14px;
+          line-height: 20px;
+          padding-top: 14px;
+      }
+      .form {
+          padding: 0px;
+      }
+      .dados-orcamento ul {
+          padding-right: 0px;
+      
+      }
+  
+      /*PORTIFOLIO */
+      .quote-cliente cite {
+          font-size: 16px;
+          font-weight: bold;
+          text-align: center;
+          font-style: normal;
+          margin-right: 20px;
+      }
+  
+      /*PAGINA CONTATO */
+      .dados-contato{
+          padding-left: 0px;
+      }
+      
+      .form {
+          padding: 0px;
+      }
+  
+  
+  
+        
+    }

@@ -1,0 +1,21 @@
+
+
+.conteudo-sobre h3{
+    margin-top: 75px;
+}
+
+.conteudo-sobre p{
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 500px;
+    margin-bottom: 18px;
+}
+.conteudo-sobre ul li{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.equipe-bikcraft{
+    margin-top: 60px;
+}
+
